@@ -76,6 +76,7 @@ import MqttSetupPage from '../routes/integration/all/mqtt/setup-page';
 // Sonoff
 import SonoffPage from '../routes/integration/all/sonoff/device-page';
 import SonoffDiscoverPage from '../routes/integration/all/sonoff/discover-page';
+import SonosPage from '../routes/integration/all/sonos';
 
 const defaultState = getDefaultState();
 const store = createStore(defaultState);
@@ -171,6 +172,7 @@ const AppRouter = connect(
         <EditXiaomiPage path="/dashboard/integration/device/xiaomi/edit/:deviceSelector" />
         <SonoffPage path="/dashboard/integration/device/sonoff" />
         <SonoffDiscoverPage path="/dashboard/integration/device/sonoff/discover" />
+        <SonosPage path="/dashboard/integration/music/sonos" />
 
         <ChatPage path="/dashboard/chat" />
         <MapPage path="/dashboard/maps" />

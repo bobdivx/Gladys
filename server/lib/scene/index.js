@@ -14,11 +14,12 @@ const { update } = require('./scene.update');
 const { EVENTS } = require('../../utils/constants');
 const { eventFunctionWrapper } = require('../../utils/functionsWrapper');
 
-const SceneManager = function SceneManager(stateManager, event, device, message) {
+const SceneManager = function SceneManager(stateManager, event, device, message, music) {
   this.stateManager = stateManager;
   this.event = event;
   this.device = device;
   this.message = message;
+  this.music = music;
   this.scenes = {};
   // @ts-ignore
   this.queue = queue({

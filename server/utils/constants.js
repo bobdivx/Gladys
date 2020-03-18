@@ -182,6 +182,9 @@ const ACTIONS = {
     TURN_ON: 'light.turn-on',
     TURN_OFF: 'light.turn-off',
   },
+  MUSIC: {
+    PLAY: 'music.play',
+  },
   TIME: {
     DELAY: 'delay',
   },
@@ -235,38 +238,8 @@ const DEVICE_FEATURE_CATEGORIES = {
   ACCESS_CONTROl: 'access-control',
   CUBE: 'cube',
   BUTTON: 'button',
-  UNKNOWN: 'unknown',
-};
-
-const DEVICE_FEATURE_TYPES = {
-  LIGHT: {
-    BINARY: 'binary',
-    BRIGHTNESS: 'brightness',
-    HUE: 'hue',
-    SATURATION: 'saturation',
-    COLOR: 'color',
-    TEMPERATURE: 'temperature',
-    POWER: 'power',
-  },
-  SENSOR: {
-    DECIMAL: 'decimal',
-    INTEGER: 'integer',
-    BINARY: 'binary',
-    PUSH: 'push',
-    UNKNOWN: 'unknown',
-  },
-  SWITCH: {
-    BINARY: 'binary',
-    POWER: 'power',
-    ENERGY: 'energy',
-    VOLTAGE: 'voltage',
-    CURRENT: 'current',
-    BURGLAR: 'burglar',
-    DIMMER: 'dimmer',
-  },
-  CAMERA: {
-    IMAGE: 'image',
-  },
+  MUSIC: 'music',
+  HEAD
   SIREN: {
     BINARY: 'binary',
   },
@@ -290,6 +263,9 @@ const DEVICE_FEATURE_TYPES = {
   },
   UNKNOWN: {
     UNKNOWN: 'unknown',
+  },
+  MUSIC: {
+    MUSIC: 'music',
   },
 };
 

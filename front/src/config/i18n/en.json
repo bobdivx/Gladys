@@ -421,7 +421,21 @@
         "cube": "Cube",
         "leak": "Leak Sensor",
         "magnet": "Magnet Sensor"
-      }
+      },
+    "sonos": {
+      "title": "Sonos",
+      "search": "Search sonos devices",
+      "empty": "No sonos devices found.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter the name of the speaker",
+      "roomLabel": "Room",
+      "sonosDeviceLabel": "Sonos speaker",
+      "spotifyRegionLabel": "Spotify Region",
+      "spotifyRegionEU": "Europe",
+      "spotifyRegionUS": "United States",
+      "testConnectionButton": "Test connection",
+      "saveButton": "Save",
+      "deleteButton": "Delete"
     }
   },
   "editScene": {

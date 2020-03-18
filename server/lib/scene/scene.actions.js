@@ -95,6 +95,9 @@ const actionsFunc = {
       throw new AbortScene('CONDITION_NOT_VERIFIED');
     }
   },
+  [ACTIONS.MUSIC.PLAY]: async (self, action, scope) => {
+    await self.music.play(action.device, action.uri);
+  },
 };
 
 module.exports = {
